@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  background-color: #24282f;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  max-width: 1170px;
+  margin: auto; }
+  header .container {
+    display: flex;
+    max-width: 1170px;
+    margin: auto; }
+    header .container ul {
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+      margin-right: 5px;
+      padding: 3px;
+      flex-direction: row;
+      justify-content: space-between; }
+
+.about {
+  display: flex;
+  background-color: #2a2e35;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  max-width: 1170px;
+  margin: auto; }
+
+.management {
+  display: flex;
+  background-color: #ffffff;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  max-width: 1170px;
+  margin: auto; }
+
+.js {
+  background-color: #f7f7f7;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  max-width: 1170px;
+  margin: auto; }
+
+.contact {
+  background-color: #2b2f35;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  max-width: 1170px;
+  margin: auto; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #24282f;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  max-width: 1170px;
+  margin: auto; }
+  footer p {
+    padding-left: 20px; }
+  footer .SM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px; }
+    footer .SM .icon {
+      align-self: center;
+      justify-content: flex-end;
+      width: 20px;
+      height: 20px;
+      overflow: hidden;
+      background: transparent;
+      padding: 5px;
+      border: solid 1px;
+      border-radius: 50%;
+      color: #6e7279; }
+      footer .SM .icon i {
+        width: 100%;
+        border-radius: 50%;
+        padding-top: 3px;
+        text-align: center; }
+    footer .SM .icon1 {
+      align-self: center;
+      justify-content: flex-end;
+      width: 20px;
+      height: 20px;
+      overflow: hidden;
+      background: #b5a263;
+      padding: 5px;
+      border: solid 1px #b5a263;
+      border-radius: 50%;
+      color: #ffffff; }
+      footer .SM .icon1 i {
+        width: 100%;
+        border-radius: 50%;
+        padding-top: 3px;
+        text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
